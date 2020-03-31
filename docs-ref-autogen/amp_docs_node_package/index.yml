@@ -1,0 +1,175 @@
+### YamlMime:UniversalReference
+items:
+  - uid: amp_docs_node_package
+    name: amp_docs_node_package
+    summary: ''
+    children:
+      - amp_docs_node_package.amp
+      - amp_docs_node_package.amp.AdElement
+      - amp_docs_node_package.amp.AdOptions
+      - amp_docs_node_package.amp.Asset
+      - amp_docs_node_package.amp.AudioStream
+      - amp_docs_node_package.amp.AudioStreamList
+      - amp_docs_node_package.amp.BufferData
+      - amp_docs_node_package.amp.bufferDataEventName
+      - amp_docs_node_package.amp.Clip
+      - amp_docs_node_package.amp.CorsConfig
+      - amp_docs_node_package.amp.downloadableMediaType
+      - amp_docs_node_package.amp.errorCode
+      - amp_docs_node_package.amp.eventName
+      - amp_docs_node_package.amp.MainProgram
+      - amp_docs_node_package.amp.MediaDownload
+      - amp_docs_node_package.amp.MediaDownloadCompleted
+      - amp_docs_node_package.amp.MediaDownloadDecrypted
+      - amp_docs_node_package.amp.MediaDownloadFailed
+      - amp_docs_node_package.amp.MediaError
+      - amp_docs_node_package.amp.MidRoll
+      - amp_docs_node_package.amp.options
+      - amp_docs_node_package.amp.options.azureHtml5JS
+      - amp_docs_node_package.amp.options.flashSS
+      - amp_docs_node_package.amp.options.silverlightSS
+      - amp_docs_node_package.amp.Player
+      - amp_docs_node_package.amp.Player.AudioTracksMenu
+      - amp_docs_node_package.amp.Player.Cea708CaptionsSettings
+      - amp_docs_node_package.amp.Player.DownloadableMediaFile
+      - amp_docs_node_package.amp.Player.HeuristicProfile
+      - amp_docs_node_package.amp.Player.HotKeys
+      - amp_docs_node_package.amp.Player.Imsc1CaptionsSettings
+      - amp_docs_node_package.amp.Player.KeyValuePair
+      - amp_docs_node_package.amp.Player.LogoConfig
+      - amp_docs_node_package.amp.Player.Options
+      - amp_docs_node_package.amp.Player.PlaybackSpeedOptions
+      - amp_docs_node_package.amp.Player.ProtectionInfo
+      - amp_docs_node_package.amp.Player.SDN
+      - amp_docs_node_package.amp.Player.SkinConfig
+      - amp_docs_node_package.amp.Player.Source
+      - amp_docs_node_package.amp.Player.TraceConfig
+      - amp_docs_node_package.amp.Player.TraceTarget
+      - amp_docs_node_package.amp.Player.Track
+      - amp_docs_node_package.amp.Player.WallClockTimeDisplaySettings
+      - amp_docs_node_package.amp.PlayList
+      - amp_docs_node_package.amp.PresentationLayout
+      - amp_docs_node_package.amp.protectionType
+      - amp_docs_node_package.amp.Splice
+      - amp_docs_node_package.amp.streamEventName
+      - amp_docs_node_package.amp.streamListEventName
+      - amp_docs_node_package.amp.TimeRange
+      - amp_docs_node_package.amp.VideoStream
+      - amp_docs_node_package.amp.VideoStreamList
+      - amp_docs_node_package.amp.VideoTrack
+      - amp_docs_node_package.amp.XMLHttpRequestFactory
+      - amp_docs_node_package.amp.XMLHttpRequestWrapper
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: amp_docs_node_package.amp
+    name: amp
+  - uid: amp_docs_node_package.amp.AdElement
+    name: AdElement
+  - uid: amp_docs_node_package.amp.AdOptions
+    name: AdOptions
+  - uid: amp_docs_node_package.amp.Asset
+    name: Asset
+  - uid: amp_docs_node_package.amp.AudioStream
+    name: AudioStream
+  - uid: amp_docs_node_package.amp.AudioStreamList
+    name: AudioStreamList
+  - uid: amp_docs_node_package.amp.BufferData
+    name: BufferData
+  - uid: amp_docs_node_package.amp.bufferDataEventName
+    name: bufferDataEventName
+  - uid: amp_docs_node_package.amp.Clip
+    name: Clip
+  - uid: amp_docs_node_package.amp.CorsConfig
+    name: CorsConfig
+  - uid: amp_docs_node_package.amp.downloadableMediaType
+    name: downloadableMediaType
+  - uid: amp_docs_node_package.amp.errorCode
+    name: errorCode
+  - uid: amp_docs_node_package.amp.eventName
+    name: eventName
+  - uid: amp_docs_node_package.amp.MainProgram
+    name: MainProgram
+  - uid: amp_docs_node_package.amp.MediaDownload
+    name: MediaDownload
+  - uid: amp_docs_node_package.amp.MediaDownloadCompleted
+    name: MediaDownloadCompleted
+  - uid: amp_docs_node_package.amp.MediaDownloadDecrypted
+    name: MediaDownloadDecrypted
+  - uid: amp_docs_node_package.amp.MediaDownloadFailed
+    name: MediaDownloadFailed
+  - uid: amp_docs_node_package.amp.MediaError
+    name: MediaError
+  - uid: amp_docs_node_package.amp.MidRoll
+    name: MidRoll
+  - uid: amp_docs_node_package.amp.options
+    name: options
+  - uid: amp_docs_node_package.amp.options.azureHtml5JS
+    name: azureHtml5JS
+  - uid: amp_docs_node_package.amp.options.flashSS
+    name: flashSS
+  - uid: amp_docs_node_package.amp.options.silverlightSS
+    name: silverlightSS
+  - uid: amp_docs_node_package.amp.Player
+    name: Player
+  - uid: amp_docs_node_package.amp.Player.AudioTracksMenu
+    name: AudioTracksMenu
+  - uid: amp_docs_node_package.amp.Player.Cea708CaptionsSettings
+    name: Cea708CaptionsSettings
+  - uid: amp_docs_node_package.amp.Player.DownloadableMediaFile
+    name: DownloadableMediaFile
+  - uid: amp_docs_node_package.amp.Player.HeuristicProfile
+    name: HeuristicProfile
+  - uid: amp_docs_node_package.amp.Player.HotKeys
+    name: HotKeys
+  - uid: amp_docs_node_package.amp.Player.Imsc1CaptionsSettings
+    name: Imsc1CaptionsSettings
+  - uid: amp_docs_node_package.amp.Player.KeyValuePair
+    name: KeyValuePair
+  - uid: amp_docs_node_package.amp.Player.LogoConfig
+    name: LogoConfig
+  - uid: amp_docs_node_package.amp.Player.Options
+    name: Options
+  - uid: amp_docs_node_package.amp.Player.PlaybackSpeedOptions
+    name: PlaybackSpeedOptions
+  - uid: amp_docs_node_package.amp.Player.ProtectionInfo
+    name: ProtectionInfo
+  - uid: amp_docs_node_package.amp.Player.SDN
+    name: SDN
+  - uid: amp_docs_node_package.amp.Player.SkinConfig
+    name: SkinConfig
+  - uid: amp_docs_node_package.amp.Player.Source
+    name: Source
+  - uid: amp_docs_node_package.amp.Player.TraceConfig
+    name: TraceConfig
+  - uid: amp_docs_node_package.amp.Player.TraceTarget
+    name: TraceTarget
+  - uid: amp_docs_node_package.amp.Player.Track
+    name: Track
+  - uid: amp_docs_node_package.amp.Player.WallClockTimeDisplaySettings
+    name: WallClockTimeDisplaySettings
+  - uid: amp_docs_node_package.amp.PlayList
+    name: PlayList
+  - uid: amp_docs_node_package.amp.PresentationLayout
+    name: PresentationLayout
+  - uid: amp_docs_node_package.amp.protectionType
+    name: protectionType
+  - uid: amp_docs_node_package.amp.Splice
+    name: Splice
+  - uid: amp_docs_node_package.amp.streamEventName
+    name: streamEventName
+  - uid: amp_docs_node_package.amp.streamListEventName
+    name: streamListEventName
+  - uid: amp_docs_node_package.amp.TimeRange
+    name: TimeRange
+  - uid: amp_docs_node_package.amp.VideoStream
+    name: VideoStream
+  - uid: amp_docs_node_package.amp.VideoStreamList
+    name: VideoStreamList
+  - uid: amp_docs_node_package.amp.VideoTrack
+    name: VideoTrack
+  - uid: amp_docs_node_package.amp.XMLHttpRequestFactory
+    name: XMLHttpRequestFactory
+  - uid: amp_docs_node_package.amp.XMLHttpRequestWrapper
+    name: XMLHttpRequestWrapper

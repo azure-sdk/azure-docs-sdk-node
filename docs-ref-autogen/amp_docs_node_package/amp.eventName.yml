@@ -1,0 +1,1097 @@
+### YamlMime:UniversalReference
+items:
+  - uid: amp_docs_node_package.amp.eventName
+    name: eventName
+    fullName: eventName
+    children:
+      - amp_docs_node_package.amp.eventName.canplaythrough
+      - amp_docs_node_package.amp.eventName.click
+      - amp_docs_node_package.amp.eventName.complete
+      - amp_docs_node_package.amp.eventName.decryptorInitialized
+      - amp_docs_node_package.amp.eventName.disposing
+      - amp_docs_node_package.amp.eventName.downloadbitratechanged
+      - amp_docs_node_package.amp.eventName.durationchange
+      - amp_docs_node_package.amp.eventName.emsgAvailable
+      - amp_docs_node_package.amp.eventName.ended
+      - amp_docs_node_package.amp.eventName.error
+      - amp_docs_node_package.amp.eventName.errorInPlayingAd
+      - amp_docs_node_package.amp.eventName.exitfullscreen
+      - amp_docs_node_package.amp.eventName.firstquartile
+      - amp_docs_node_package.amp.eventName.fullscreen
+      - amp_docs_node_package.amp.eventName.fullscreenchange
+      - amp_docs_node_package.amp.eventName.livestartupretry
+      - amp_docs_node_package.amp.eventName.loadeddata
+      - amp_docs_node_package.amp.eventName.loadedmetadata
+      - amp_docs_node_package.amp.eventName.loadstart
+      - amp_docs_node_package.amp.eventName.midpoint
+      - amp_docs_node_package.amp.eventName.mute
+      - amp_docs_node_package.amp.eventName.pause
+      - amp_docs_node_package.amp.eventName.play
+      - amp_docs_node_package.amp.eventName.playbackbitratechanged
+      - amp_docs_node_package.amp.eventName.playing
+      - amp_docs_node_package.amp.eventName.ratechange
+      - amp_docs_node_package.amp.eventName.resume
+      - amp_docs_node_package.amp.eventName.rewind
+      - amp_docs_node_package.amp.eventName.seeked
+      - amp_docs_node_package.amp.eventName.seeking
+      - amp_docs_node_package.amp.eventName.skip
+      - amp_docs_node_package.amp.eventName.sourceset
+      - amp_docs_node_package.amp.eventName.splicewaiting
+      - amp_docs_node_package.amp.eventName.start
+      - amp_docs_node_package.amp.eventName.thirdquartile
+      - amp_docs_node_package.amp.eventName.timeupdate
+      - amp_docs_node_package.amp.eventName.unmute
+      - amp_docs_node_package.amp.eventName.volumechange
+      - amp_docs_node_package.amp.eventName.waiting
+    langs:
+      - typeScript
+    type: class
+    summary: 'Event types from [[amp]]'
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.canplaythrough
+    name: canplaythrough
+    fullName: canplaythrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Buffer has met pre-roll level. Note: There are some variation across
+      techs.
+
+      On Html5 tech, this event is only raised for the first set source,
+
+      if source is set again on the same player, this event will not occur
+      again.
+    syntax:
+      content: 'static canplaythrough: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.click
+    name: click
+    fullName: click
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.click]] User clicked on video frame.'
+    syntax:
+      content: 'static click: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.complete
+    name: complete
+    fullName: complete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.complete]] Playback reached end. Synonym of ''ended'''
+    syntax:
+      content: 'static complete: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.decryptorInitialized
+    name: decryptorInitialized
+    fullName: decryptorInitialized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The decryptor has initialized in AES Handler.
+    syntax:
+      content: 'static decryptorInitialized: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.disposing
+    name: disposing
+    fullName: disposing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.dispose]] was called.'
+    syntax:
+      content: 'static disposing: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.downloadbitratechanged
+    name: downloadbitratechanged
+    fullName: downloadbitratechanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.currentDownloadBitrate]] property has changed.'
+    syntax:
+      content: 'static downloadbitratechanged: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.durationchange
+    name: durationchange
+    fullName: durationchange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.duration]] property has changed.'
+    syntax:
+      content: 'static durationchange: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.emsgAvailable
+    name: emsgAvailable
+    fullName: emsgAvailable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >+
+      emsg boxes are available by examining the event
+      [[amp.Player.emsgAvailable]].
+
+      Available only in DASH
+
+      ##### Example:
+          myPlayer.addEventListener(amp.eventName.emsgAvailable, function (event, info) {
+              // emsg boxes are in info.data
+          });
+
+    syntax:
+      content: 'static emsgAvailable: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.ended
+    name: ended
+    fullName: ended
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.ended]] property has changed.'
+    syntax:
+      content: 'static ended: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Error occurred, playback will stop, check [[amp.Player.error]] property.'
+    syntax:
+      content: 'static error: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.errorInPlayingAd
+    name: errorInPlayingAd
+    fullName: errorInPlayingAd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      [[amp.Player.errorInPlayingAd]] player encountered an error when playing
+      an advertisement clip.
+    syntax:
+      content: 'static errorInPlayingAd: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.exitfullscreen
+    name: exitfullscreen
+    fullName: exitfullscreen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.exitfullscreen]] Player has exited fullscreen mode.'
+    syntax:
+      content: 'static exitfullscreen: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.firstquartile
+    name: firstquartile
+    fullName: firstquartile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.firstquartile]] Playback reached first quartile.'
+    syntax:
+      content: 'static firstquartile: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.fullscreen
+    name: fullscreen
+    fullName: fullscreen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.fullscreen]] Player has entered fullscreen mode.'
+    syntax:
+      content: 'static fullscreen: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.fullscreenchange
+    name: fullscreenchange
+    fullName: fullscreenchange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.isFullscreen]] property has changed.'
+    syntax:
+      content: 'static fullscreenchange: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.livestartupretry
+    name: livestartupretry
+    fullName: livestartupretry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      [[amp.Player.livestartupretry]] player encountered an retry while trying
+      to play a live content, and being retried.
+    syntax:
+      content: 'static livestartupretry: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.loadeddata
+    name: loadeddata
+    fullName: loadeddata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Media data has been rendered for the first time.
+    syntax:
+      content: 'static loadeddata: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.loadedmetadata
+    name: loadedmetadata
+    fullName: loadedmetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.currentVideoStreamList]] maybe available.'
+    syntax:
+      content: 'static loadedmetadata: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.loadstart
+    name: loadstart
+    fullName: loadstart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Playback is looking for media data.
+    syntax:
+      content: 'static loadstart: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.midpoint
+    name: midpoint
+    fullName: midpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.midpoint]] Playback reached middle.'
+    syntax:
+      content: 'static midpoint: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.mute
+    name: mute
+    fullName: mute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.mute]] Playback was muted.'
+    syntax:
+      content: 'static mute: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.pause
+    name: pause
+    fullName: pause
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Playback has paused, check [[amp.Player.paused]] property.'
+    syntax:
+      content: 'static pause: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.play
+    name: play
+    fullName: play
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Play function has begun.
+    syntax:
+      content: 'static play: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.playbackbitratechanged
+    name: playbackbitratechanged
+    fullName: playbackbitratechanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.currentPlaybackBitrate]] property has changed.'
+    syntax:
+      content: 'static playbackbitratechanged: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.playing
+    name: playing
+    fullName: playing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Play function has completed, check [[amp.Player.paused]] property.'
+    syntax:
+      content: 'static playing: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.ratechange
+    name: ratechange
+    fullName: ratechange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.playbackRate]] property has changed.'
+    syntax:
+      content: 'static ratechange: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.resume
+    name: resume
+    fullName: resume
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.resume]] Player started after a pause.'
+    syntax:
+      content: 'static resume: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.rewind
+    name: rewind
+    fullName: rewind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.rewind]] Playback was rewound.'
+    syntax:
+      content: 'static rewind: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.seeked
+    name: seeked
+    fullName: seeked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Seek has complete, check [[amp.Player.seeking]] property.'
+    syntax:
+      content: 'static seeked: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.seeking
+    name: seeking
+    fullName: seeking
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Seek has begun.
+    syntax:
+      content: 'static seeking: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.skip
+    name: skip
+    fullName: skip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.skip]] Skip UI control was used.'
+    syntax:
+      content: 'static skip: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.sourceset
+    name: sourceset
+    fullName: sourceset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      App has set the source. SDN plugins should wait for this event before
+      modifying
+
+      [[amp.Player.Options.sourceList]].
+    syntax:
+      content: 'static sourceset: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.splicewaiting
+    name: splicewaiting
+    fullName: splicewaiting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.spliceWaiting]] msg was received.'
+    syntax:
+      content: 'static splicewaiting: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.start
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.start]] Playback started.'
+    syntax:
+      content: 'static start: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.thirdquartile
+    name: thirdquartile
+    fullName: thirdquartile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.thirdquartile]] Playback reached third quarter.'
+    syntax:
+      content: 'static thirdquartile: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.timeupdate
+    name: timeupdate
+    fullName: timeupdate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.currentTime]] property has changed.'
+    syntax:
+      content: 'static timeupdate: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.unmute
+    name: unmute
+    fullName: unmute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.unmute]] Player was unmuted.'
+    syntax:
+      content: 'static unmute: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.volumechange
+    name: volumechange
+    fullName: volumechange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '[[amp.Player.volume]] property has changed.'
+    syntax:
+      content: 'static volumechange: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+  - uid: amp_docs_node_package.amp.eventName.waiting
+    name: waiting
+    fullName: waiting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Playback has been paused to build a low buffer.
+    syntax:
+      content: 'static waiting: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: amp_docs_node_package
+references:
+  - uid: amp_docs_node_package.amp.Player.HeuristicProfile
+    name: HeuristicProfile
+    spec.typeScript:
+      - name: HeuristicProfile
+        fullName: HeuristicProfile
+        uid: amp_docs_node_package.amp.Player.HeuristicProfile
+  - uid: amp_docs_node_package.amp.Player.AudioTracksMenu
+    name: AudioTracksMenu
+    spec.typeScript:
+      - name: AudioTracksMenu
+        fullName: AudioTracksMenu
+        uid: amp_docs_node_package.amp.Player.AudioTracksMenu
+  - uid: amp_docs_node_package.amp.Player.Cea708CaptionsSettings
+    name: Cea708CaptionsSettings
+    spec.typeScript:
+      - name: Cea708CaptionsSettings
+        fullName: Cea708CaptionsSettings
+        uid: amp_docs_node_package.amp.Player.Cea708CaptionsSettings
+  - uid: amp_docs_node_package.amp.Player.DownloadableMediaFile
+    name: DownloadableMediaFile
+    spec.typeScript:
+      - name: DownloadableMediaFile
+        fullName: DownloadableMediaFile
+        uid: amp_docs_node_package.amp.Player.DownloadableMediaFile
+  - uid: amp_docs_node_package.amp.Player.HotKeys
+    name: HotKeys
+    spec.typeScript:
+      - name: HotKeys
+        fullName: HotKeys
+        uid: amp_docs_node_package.amp.Player.HotKeys
+  - uid: amp_docs_node_package.amp.Player.Imsc1CaptionsSettings
+    name: Imsc1CaptionsSettings
+    spec.typeScript:
+      - name: Imsc1CaptionsSettings
+        fullName: Imsc1CaptionsSettings
+        uid: amp_docs_node_package.amp.Player.Imsc1CaptionsSettings
+  - uid: amp_docs_node_package.amp.Player.KeyValuePair
+    name: KeyValuePair
+    spec.typeScript:
+      - name: KeyValuePair
+        fullName: KeyValuePair
+        uid: amp_docs_node_package.amp.Player.KeyValuePair
+  - uid: amp_docs_node_package.amp.Player.LogoConfig
+    name: LogoConfig
+    spec.typeScript:
+      - name: LogoConfig
+        fullName: LogoConfig
+        uid: amp_docs_node_package.amp.Player.LogoConfig
+  - uid: amp_docs_node_package.amp.CorsConfig
+    name: CorsConfig
+    spec.typeScript:
+      - name: CorsConfig
+        fullName: CorsConfig
+        uid: amp_docs_node_package.amp.CorsConfig
+  - uid: 'amp_docs_node_package.amp.Player.Imsc1CaptionsSettings[]'
+    name: 'Imsc1CaptionsSettings[]'
+    spec.typeScript:
+      - name: Imsc1CaptionsSettings
+        fullName: Imsc1CaptionsSettings
+        uid: amp_docs_node_package.amp.Player.Imsc1CaptionsSettings
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.Player.PlaybackSpeedOptions
+    name: PlaybackSpeedOptions
+    spec.typeScript:
+      - name: PlaybackSpeedOptions
+        fullName: PlaybackSpeedOptions
+        uid: amp_docs_node_package.amp.Player.PlaybackSpeedOptions
+  - uid: amp_docs_node_package.amp.Player.SDN
+    name: SDN
+    spec.typeScript:
+      - name: SDN
+        fullName: SDN
+        uid: amp_docs_node_package.amp.Player.SDN
+  - uid: amp_docs_node_package.amp.Player.SkinConfig
+    name: SkinConfig
+    spec.typeScript:
+      - name: SkinConfig
+        fullName: SkinConfig
+        uid: amp_docs_node_package.amp.Player.SkinConfig
+  - uid: 'amp_docs_node_package.amp.Player.Source[]'
+    name: 'Source[]'
+    spec.typeScript:
+      - name: Source
+        fullName: Source
+        uid: amp_docs_node_package.amp.Player.Source
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.Player.TraceConfig
+    name: TraceConfig
+    spec.typeScript:
+      - name: TraceConfig
+        fullName: TraceConfig
+        uid: amp_docs_node_package.amp.Player.TraceConfig
+  - uid: amp_docs_node_package.amp.Player.WallClockTimeDisplaySettings
+    name: WallClockTimeDisplaySettings
+    spec.typeScript:
+      - name: WallClockTimeDisplaySettings
+        fullName: WallClockTimeDisplaySettings
+        uid: amp_docs_node_package.amp.Player.WallClockTimeDisplaySettings
+  - uid: amp_docs_node_package.amp.Player.Options
+    name: Options
+    spec.typeScript:
+      - name: Options
+        fullName: Options
+        uid: amp_docs_node_package.amp.Player.Options
+  - uid: 'amp_docs_node_package.amp.Player.KeyValuePair<number>[]'
+    name: 'KeyValuePair<number>[]'
+    spec.typeScript:
+      - name: KeyValuePair
+        fullName: KeyValuePair
+        uid: amp_docs_node_package.amp.Player.KeyValuePair
+      - name: '<number>[]'
+        fullName: '<number>[]'
+  - uid: amp_docs_node_package.amp.Player.ProtectionInfo
+    name: ProtectionInfo
+    spec.typeScript:
+      - name: ProtectionInfo
+        fullName: ProtectionInfo
+        uid: amp_docs_node_package.amp.Player.ProtectionInfo
+  - uid: 'amp_docs_node_package.amp.Player.ProtectionInfo[]'
+    name: 'ProtectionInfo[]'
+    spec.typeScript:
+      - name: ProtectionInfo
+        fullName: ProtectionInfo
+        uid: amp_docs_node_package.amp.Player.ProtectionInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.Player.Source
+    name: Source
+    spec.typeScript:
+      - name: Source
+        fullName: Source
+        uid: amp_docs_node_package.amp.Player.Source
+  - uid: 'amp_docs_node_package.amp.Player.TraceTarget[]'
+    name: 'TraceTarget[]'
+    spec.typeScript:
+      - name: TraceTarget
+        fullName: TraceTarget
+        uid: amp_docs_node_package.amp.Player.TraceTarget
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.Player.TraceTarget
+    name: TraceTarget
+    spec.typeScript:
+      - name: TraceTarget
+        fullName: TraceTarget
+        uid: amp_docs_node_package.amp.Player.TraceTarget
+  - uid: amp_docs_node_package.amp.Player.Track
+    name: Track
+    spec.typeScript:
+      - name: Track
+        fullName: Track
+        uid: amp_docs_node_package.amp.Player.Track
+  - uid: amp_docs_node_package.amp.Player
+    name: Player
+    spec.typeScript:
+      - name: Player
+        fullName: Player
+        uid: amp_docs_node_package.amp.Player
+  - uid: amp_docs_node_package.amp.MidRoll
+    name: MidRoll
+    spec.typeScript:
+      - name: MidRoll
+        fullName: MidRoll
+        uid: amp_docs_node_package.amp.MidRoll
+  - uid: 'amp_docs_node_package.amp.MidRoll[]'
+    name: 'MidRoll[]'
+    spec.typeScript:
+      - name: MidRoll
+        fullName: MidRoll
+        uid: amp_docs_node_package.amp.MidRoll
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.BufferData
+    name: BufferData
+    spec.typeScript:
+      - name: BufferData
+        fullName: BufferData
+        uid: amp_docs_node_package.amp.BufferData
+  - uid: amp_docs_node_package.amp.AudioStreamList
+    name: AudioStreamList
+    spec.typeScript:
+      - name: AudioStreamList
+        fullName: AudioStreamList
+        uid: amp_docs_node_package.amp.AudioStreamList
+  - uid: amp_docs_node_package.amp.Clip
+    name: Clip
+    spec.typeScript:
+      - name: Clip
+        fullName: Clip
+        uid: amp_docs_node_package.amp.Clip
+  - uid: amp_docs_node_package.amp.TimeRange
+    name: TimeRange
+    spec.typeScript:
+      - name: TimeRange
+        fullName: TimeRange
+        uid: amp_docs_node_package.amp.TimeRange
+  - uid: amp_docs_node_package.amp.VideoStreamList
+    name: VideoStreamList
+    spec.typeScript:
+      - name: VideoStreamList
+        fullName: VideoStreamList
+        uid: amp_docs_node_package.amp.VideoStreamList
+  - uid: 'amp_docs_node_package.amp.Player.DownloadableMediaFile[]'
+    name: 'DownloadableMediaFile[]'
+    spec.typeScript:
+      - name: DownloadableMediaFile
+        fullName: DownloadableMediaFile
+        uid: amp_docs_node_package.amp.Player.DownloadableMediaFile
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.MediaError
+    name: MediaError
+    spec.typeScript:
+      - name: MediaError
+        fullName: MediaError
+        uid: amp_docs_node_package.amp.MediaError
+  - uid: amp_docs_node_package.amp.PlayList
+    name: PlayList
+    spec.typeScript:
+      - name: PlayList
+        fullName: PlayList
+        uid: amp_docs_node_package.amp.PlayList
+  - uid: amp_docs_node_package.amp.PresentationLayout
+    name: PresentationLayout
+    spec.typeScript:
+      - name: PresentationLayout
+        fullName: PresentationLayout
+        uid: amp_docs_node_package.amp.PresentationLayout
+  - uid: amp_docs_node_package.amp.XMLHttpRequestFactory
+    name: XMLHttpRequestFactory
+    spec.typeScript:
+      - name: XMLHttpRequestFactory
+        fullName: XMLHttpRequestFactory
+        uid: amp_docs_node_package.amp.XMLHttpRequestFactory
+  - uid: 'amp_docs_node_package.amp.Splice[]'
+    name: 'Splice[]'
+    spec.typeScript:
+      - name: Splice
+        fullName: Splice
+        uid: amp_docs_node_package.amp.Splice
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'amp_docs_node_package.amp.Player.Track[]'
+    name: 'Track[]'
+    spec.typeScript:
+      - name: Track
+        fullName: Track
+        uid: amp_docs_node_package.amp.Player.Track
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.options.azureHtml5JS
+    name: azureHtml5JS
+    spec.typeScript:
+      - name: azureHtml5JS
+        fullName: azureHtml5JS
+        uid: amp_docs_node_package.amp.options.azureHtml5JS
+  - uid: amp_docs_node_package.amp.options.flashSS
+    name: flashSS
+    spec.typeScript:
+      - name: flashSS
+        fullName: flashSS
+        uid: amp_docs_node_package.amp.options.flashSS
+  - uid: amp_docs_node_package.amp.options.silverlightSS
+    name: silverlightSS
+    spec.typeScript:
+      - name: silverlightSS
+        fullName: silverlightSS
+        uid: amp_docs_node_package.amp.options.silverlightSS
+  - uid: amp_docs_node_package.amp.options
+    name: options
+    spec.typeScript:
+      - name: options
+        fullName: options
+        uid: amp_docs_node_package.amp.options
+  - uid: amp_docs_node_package.amp.bufferDataEventName
+    name: bufferDataEventName
+    spec.typeScript:
+      - name: bufferDataEventName
+        fullName: bufferDataEventName
+        uid: amp_docs_node_package.amp.bufferDataEventName
+  - uid: amp_docs_node_package.amp.downloadableMediaType
+    name: downloadableMediaType
+    spec.typeScript:
+      - name: downloadableMediaType
+        fullName: downloadableMediaType
+        uid: amp_docs_node_package.amp.downloadableMediaType
+  - uid: amp_docs_node_package.amp.errorCode
+    name: errorCode
+    spec.typeScript:
+      - name: errorCode
+        fullName: errorCode
+        uid: amp_docs_node_package.amp.errorCode
+  - uid: amp_docs_node_package.amp.eventName
+    name: eventName
+    spec.typeScript:
+      - name: eventName
+        fullName: eventName
+        uid: amp_docs_node_package.amp.eventName
+  - uid: amp_docs_node_package.amp.protectionType
+    name: protectionType
+    spec.typeScript:
+      - name: protectionType
+        fullName: protectionType
+        uid: amp_docs_node_package.amp.protectionType
+  - uid: amp_docs_node_package.amp.streamEventName
+    name: streamEventName
+    spec.typeScript:
+      - name: streamEventName
+        fullName: streamEventName
+        uid: amp_docs_node_package.amp.streamEventName
+  - uid: amp_docs_node_package.amp.streamListEventName
+    name: streamListEventName
+    spec.typeScript:
+      - name: streamListEventName
+        fullName: streamListEventName
+        uid: amp_docs_node_package.amp.streamListEventName
+  - uid: amp_docs_node_package.amp.AdOptions
+    name: AdOptions
+    spec.typeScript:
+      - name: AdOptions
+        fullName: AdOptions
+        uid: amp_docs_node_package.amp.AdOptions
+  - uid: amp_docs_node_package.amp.AdElement
+    name: AdElement
+    spec.typeScript:
+      - name: AdElement
+        fullName: AdElement
+        uid: amp_docs_node_package.amp.AdElement
+  - uid: amp_docs_node_package.amp.Asset
+    name: Asset
+    spec.typeScript:
+      - name: Asset
+        fullName: Asset
+        uid: amp_docs_node_package.amp.Asset
+  - uid: amp_docs_node_package.amp.AudioStream
+    name: AudioStream
+    spec.typeScript:
+      - name: AudioStream
+        fullName: AudioStream
+        uid: amp_docs_node_package.amp.AudioStream
+  - uid: 'amp_docs_node_package.amp.AudioStream[]'
+    name: 'AudioStream[]'
+    spec.typeScript:
+      - name: AudioStream
+        fullName: AudioStream
+        uid: amp_docs_node_package.amp.AudioStream
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.MediaDownloadCompleted
+    name: MediaDownloadCompleted
+    spec.typeScript:
+      - name: MediaDownloadCompleted
+        fullName: MediaDownloadCompleted
+        uid: amp_docs_node_package.amp.MediaDownloadCompleted
+  - uid: amp_docs_node_package.amp.MediaDownloadDecrypted
+    name: MediaDownloadDecrypted
+    spec.typeScript:
+      - name: MediaDownloadDecrypted
+        fullName: MediaDownloadDecrypted
+        uid: amp_docs_node_package.amp.MediaDownloadDecrypted
+  - uid: amp_docs_node_package.amp.MediaDownloadFailed
+    name: MediaDownloadFailed
+    spec.typeScript:
+      - name: MediaDownloadFailed
+        fullName: MediaDownloadFailed
+        uid: amp_docs_node_package.amp.MediaDownloadFailed
+  - uid: amp_docs_node_package.amp.MediaDownload
+    name: MediaDownload
+    spec.typeScript:
+      - name: MediaDownload
+        fullName: MediaDownload
+        uid: amp_docs_node_package.amp.MediaDownload
+  - uid: amp_docs_node_package.amp.MainProgram
+    name: MainProgram
+    spec.typeScript:
+      - name: MainProgram
+        fullName: MainProgram
+        uid: amp_docs_node_package.amp.MainProgram
+  - uid: amp_docs_node_package.amp.Splice
+    name: Splice
+    spec.typeScript:
+      - name: Splice
+        fullName: Splice
+        uid: amp_docs_node_package.amp.Splice
+  - uid: 'amp_docs_node_package.amp.Clip[]'
+    name: 'Clip[]'
+    spec.typeScript:
+      - name: Clip
+        fullName: Clip
+        uid: amp_docs_node_package.amp.Clip
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'amp_docs_node_package.amp.AdElement[]'
+    name: 'AdElement[]'
+    spec.typeScript:
+      - name: AdElement
+        fullName: AdElement
+        uid: amp_docs_node_package.amp.AdElement
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'amp_docs_node_package.amp.VideoTrack[]'
+    name: 'VideoTrack[]'
+    spec.typeScript:
+      - name: VideoTrack
+        fullName: VideoTrack
+        uid: amp_docs_node_package.amp.VideoTrack
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.VideoStream
+    name: VideoStream
+    spec.typeScript:
+      - name: VideoStream
+        fullName: VideoStream
+        uid: amp_docs_node_package.amp.VideoStream
+  - uid: 'amp_docs_node_package.amp.VideoStream[]'
+    name: 'VideoStream[]'
+    spec.typeScript:
+      - name: VideoStream
+        fullName: VideoStream
+        uid: amp_docs_node_package.amp.VideoStream
+      - name: '[]'
+        fullName: '[]'
+  - uid: amp_docs_node_package.amp.VideoTrack
+    name: VideoTrack
+    spec.typeScript:
+      - name: VideoTrack
+        fullName: VideoTrack
+        uid: amp_docs_node_package.amp.VideoTrack
+  - uid: amp_docs_node_package.amp.XMLHttpRequestWrapper
+    name: XMLHttpRequestWrapper
+    spec.typeScript:
+      - name: XMLHttpRequestWrapper
+        fullName: XMLHttpRequestWrapper
+        uid: amp_docs_node_package.amp.XMLHttpRequestWrapper
