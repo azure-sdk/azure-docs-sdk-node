@@ -30,7 +30,7 @@ items:
             - string
           description: >-
             string of event name, available events are defined in
-            [[amp.streamEventName]]
+            <xref:amp.streamEventName>
         - id: handler
           type:
             - Function
@@ -82,7 +82,7 @@ items:
             - string
           description: >-
             string of event name, available events are defined in
-            [[amp.streamEventName]]
+            <xref:amp.streamEventName>
         - id: handler
           type:
             - Function

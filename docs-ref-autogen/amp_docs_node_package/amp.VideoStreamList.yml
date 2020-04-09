@@ -9,7 +9,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: 'Video stream list, returned from [[amp.Player.currentVideoStreamList]]'
+    summary: 'Video stream list, returned from <xref:amp.Player.currentVideoStreamList>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.VideoStreamList.selectedIndex
     name: selectedIndex

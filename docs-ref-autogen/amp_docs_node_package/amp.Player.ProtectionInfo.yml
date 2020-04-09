@@ -10,7 +10,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: 'Interface for protection information of the [[Source]]'
+    summary: 'Interface for protection information of the <xref:Source>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.ProtectionInfo.authenticationToken
     name: authenticationToken
@@ -53,7 +53,7 @@ items:
     type: property
     summary: |-
       Protection type string.
-      Use [[amp.protectionType]] for the list of protection types.
+      Use <xref:amp.protectionType> for the list of protection types.
       ex: `amp.protectionType.AES`
     syntax:
       content: 'type: string'

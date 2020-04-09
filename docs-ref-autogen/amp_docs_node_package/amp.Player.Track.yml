@@ -11,7 +11,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: 'Track object to hold the text track information in [[amp.Player.src]]'
+    summary: 'Track object to hold the text track information in <xref:amp.Player.src>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.Track.kind
     name: kind

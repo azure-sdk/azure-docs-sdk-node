@@ -30,7 +30,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: 'Interface for the options of [[amp]] when it is created.'
+    summary: 'Interface for the options of <xref:amp> when it is created.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.Options.autoplay
     name: autoplay
@@ -339,7 +339,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Skin configuration of [[amp]]'
+    summary: 'Skin configuration of <xref:amp>'
     optional: true
     syntax:
       content: 'skinConfig?: SkinConfig'
@@ -359,7 +359,7 @@ items:
       List of sources. SDN plugins can modify source URLs using this field.
 
       SDN plugin can modify source URLs only after it catches
-      [[amp.eventName.sourceset]] event triggered by AMP.
+      <xref:amp.eventName.sourceset> event triggered by AMP.
     optional: true
     syntax:
       content: 'sourceList?: Source[]'
@@ -413,7 +413,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Set the configuration for the Tracing of [[amp]]'
+    summary: 'Set the configuration for the Tracing of <xref:amp>'
     optional: true
     syntax:
       content: 'traceConfig?: TraceConfig'

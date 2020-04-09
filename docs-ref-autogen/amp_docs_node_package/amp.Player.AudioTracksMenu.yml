@@ -10,7 +10,7 @@ items:
       - typeScript
     type: interface
     summary: |-
-      Interface for the AudioTracksMenu of [[amp]]
+      Interface for the AudioTracksMenu of <xref:amp>
       Controls for multi-audio scenarios.
       Ex: audioTracksMenu: { enabled: true, useManifestForLabel: false }
     package: amp_docs_node_package

@@ -11,7 +11,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Heuristic profiles for [[amp]]'
+    summary: 'Heuristic profiles for <xref:amp>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.HeuristicProfile.HighQuality
     name: HighQuality

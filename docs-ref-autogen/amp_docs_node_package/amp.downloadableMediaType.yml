@@ -11,7 +11,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Downloadable media types for [[amp.Player.DownloadableMediaFile]]'
+    summary: 'Downloadable media types for <xref:amp.Player.DownloadableMediaFile>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.downloadableMediaType.audio
     name: audio

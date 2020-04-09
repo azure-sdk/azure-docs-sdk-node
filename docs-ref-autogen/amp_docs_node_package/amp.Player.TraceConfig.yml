@@ -9,7 +9,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: 'Interface for the Trace Configuration of [[amp]]'
+    summary: 'Interface for the Trace Configuration of <xref:amp>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.TraceConfig.maxLogLevel
     name: maxLogLevel

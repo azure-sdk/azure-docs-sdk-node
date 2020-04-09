@@ -46,7 +46,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Event types from [[amp]]'
+    summary: 'Event types from <xref:amp>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.eventName.canplaythrough
     name: canplaythrough
@@ -77,7 +77,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.click]] User clicked on video frame.'
+    summary: '<xref:amp.Player.click> User clicked on video frame.'
     syntax:
       content: 'static click: string'
       return:
@@ -92,7 +92,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.complete]] Playback reached end. Synonym of ''ended'''
+    summary: '<xref:amp.Player.complete> Playback reached end. Synonym of ''ended'''
     syntax:
       content: 'static complete: string'
       return:
@@ -122,7 +122,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.dispose]] was called.'
+    summary: '<xref:amp.Player.dispose> was called.'
     syntax:
       content: 'static disposing: string'
       return:
@@ -137,7 +137,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.currentDownloadBitrate]] property has changed.'
+    summary: '<xref:amp.Player.currentDownloadBitrate> property has changed.'
     syntax:
       content: 'static downloadbitratechanged: string'
       return:
@@ -152,7 +152,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.duration]] property has changed.'
+    summary: '<xref:amp.Player.duration> property has changed.'
     syntax:
       content: 'static durationchange: string'
       return:
@@ -169,7 +169,7 @@ items:
     type: property
     summary: >+
       emsg boxes are available by examining the event
-      [[amp.Player.emsgAvailable]].
+      <xref:amp.Player.emsgAvailable>.
 
       Available only in DASH
 
@@ -192,7 +192,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.ended]] property has changed.'
+    summary: '<xref:amp.Player.ended> property has changed.'
     syntax:
       content: 'static ended: string'
       return:
@@ -207,7 +207,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Error occurred, playback will stop, check [[amp.Player.error]] property.'
+    summary: >-
+      Error occurred, playback will stop, check <xref:amp.Player.error>
+      property.
     syntax:
       content: 'static error: string'
       return:
@@ -223,8 +225,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      [[amp.Player.errorInPlayingAd]] player encountered an error when playing
-      an advertisement clip.
+      <xref:amp.Player.errorInPlayingAd> player encountered an error when
+      playing an advertisement clip.
     syntax:
       content: 'static errorInPlayingAd: string'
       return:
@@ -239,7 +241,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.exitfullscreen]] Player has exited fullscreen mode.'
+    summary: '<xref:amp.Player.exitfullscreen> Player has exited fullscreen mode.'
     syntax:
       content: 'static exitfullscreen: string'
       return:
@@ -254,7 +256,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.firstquartile]] Playback reached first quartile.'
+    summary: '<xref:amp.Player.firstquartile> Playback reached first quartile.'
     syntax:
       content: 'static firstquartile: string'
       return:
@@ -269,7 +271,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.fullscreen]] Player has entered fullscreen mode.'
+    summary: '<xref:amp.Player.fullscreen> Player has entered fullscreen mode.'
     syntax:
       content: 'static fullscreen: string'
       return:
@@ -284,7 +286,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.isFullscreen]] property has changed.'
+    summary: '<xref:amp.Player.isFullscreen> property has changed.'
     syntax:
       content: 'static fullscreenchange: string'
       return:
@@ -300,8 +302,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      [[amp.Player.livestartupretry]] player encountered an retry while trying
-      to play a live content, and being retried.
+      <xref:amp.Player.livestartupretry> player encountered an retry while
+      trying to play a live content, and being retried.
     syntax:
       content: 'static livestartupretry: string'
       return:
@@ -331,7 +333,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.currentVideoStreamList]] maybe available.'
+    summary: '<xref:amp.Player.currentVideoStreamList> maybe available.'
     syntax:
       content: 'static loadedmetadata: string'
       return:
@@ -361,7 +363,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.midpoint]] Playback reached middle.'
+    summary: '<xref:amp.Player.midpoint> Playback reached middle.'
     syntax:
       content: 'static midpoint: string'
       return:
@@ -376,7 +378,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.mute]] Playback was muted.'
+    summary: '<xref:amp.Player.mute> Playback was muted.'
     syntax:
       content: 'static mute: string'
       return:
@@ -391,7 +393,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Playback has paused, check [[amp.Player.paused]] property.'
+    summary: 'Playback has paused, check <xref:amp.Player.paused> property.'
     syntax:
       content: 'static pause: string'
       return:
@@ -421,7 +423,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.currentPlaybackBitrate]] property has changed.'
+    summary: '<xref:amp.Player.currentPlaybackBitrate> property has changed.'
     syntax:
       content: 'static playbackbitratechanged: string'
       return:
@@ -436,7 +438,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Play function has completed, check [[amp.Player.paused]] property.'
+    summary: 'Play function has completed, check <xref:amp.Player.paused> property.'
     syntax:
       content: 'static playing: string'
       return:
@@ -451,7 +453,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.playbackRate]] property has changed.'
+    summary: '<xref:amp.Player.playbackRate> property has changed.'
     syntax:
       content: 'static ratechange: string'
       return:
@@ -466,7 +468,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.resume]] Player started after a pause.'
+    summary: '<xref:amp.Player.resume> Player started after a pause.'
     syntax:
       content: 'static resume: string'
       return:
@@ -481,7 +483,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.rewind]] Playback was rewound.'
+    summary: '<xref:amp.Player.rewind> Playback was rewound.'
     syntax:
       content: 'static rewind: string'
       return:
@@ -496,7 +498,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Seek has complete, check [[amp.Player.seeking]] property.'
+    summary: 'Seek has complete, check <xref:amp.Player.seeking> property.'
     syntax:
       content: 'static seeked: string'
       return:
@@ -526,7 +528,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.skip]] Skip UI control was used.'
+    summary: '<xref:amp.Player.skip> Skip UI control was used.'
     syntax:
       content: 'static skip: string'
       return:
@@ -545,7 +547,7 @@ items:
       App has set the source. SDN plugins should wait for this event before
       modifying
 
-      [[amp.Player.Options.sourceList]].
+      <xref:amp.Player.Options.sourceList>.
     syntax:
       content: 'static sourceset: string'
       return:
@@ -560,7 +562,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.spliceWaiting]] msg was received.'
+    summary: '<xref:amp.Player.spliceWaiting> msg was received.'
     syntax:
       content: 'static splicewaiting: string'
       return:
@@ -575,7 +577,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.start]] Playback started.'
+    summary: '<xref:amp.Player.start> Playback started.'
     syntax:
       content: 'static start: string'
       return:
@@ -590,7 +592,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.thirdquartile]] Playback reached third quarter.'
+    summary: '<xref:amp.Player.thirdquartile> Playback reached third quarter.'
     syntax:
       content: 'static thirdquartile: string'
       return:
@@ -605,7 +607,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.currentTime]] property has changed.'
+    summary: '<xref:amp.Player.currentTime> property has changed.'
     syntax:
       content: 'static timeupdate: string'
       return:
@@ -620,7 +622,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.unmute]] Player was unmuted.'
+    summary: '<xref:amp.Player.unmute> Player was unmuted.'
     syntax:
       content: 'static unmute: string'
       return:
@@ -635,7 +637,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '[[amp.Player.volume]] property has changed.'
+    summary: '<xref:amp.Player.volume> property has changed.'
     syntax:
       content: 'static volumechange: string'
       return:

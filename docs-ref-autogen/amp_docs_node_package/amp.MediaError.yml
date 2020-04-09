@@ -19,7 +19,7 @@ items:
       - typeScript
     type: property
     summary: |-
-      Error codes (see [[amp.ErrorCode]])
+      Error codes (see <xref:amp.ErrorCode>)
       Bits [31-28] - Tech Id
       ```
       Unknown          = 0
@@ -41,7 +41,7 @@ items:
       'SRC_PLAYER_MISMATCH'            = 6
       'MEDIA_ERR_UNKNOWN'              = 0xFF
       ```
-      Bits [19-0]  - More details of the error. See [[amp.errorCode]].
+      Bits [19-0]  - More details of the error. See <xref:amp.errorCode>.
     syntax:
       content: 'code: number'
       return:

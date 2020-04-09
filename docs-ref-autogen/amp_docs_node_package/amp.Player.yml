@@ -105,7 +105,7 @@ items:
       - amp_docs_node_package.amp.Player.width
       - amp_docs_node_package.amp.Player.width_1
     type: module
-    summary: 'The Player instance for [[amp]], for the caller to interact with.'
+    summary: 'The Player instance for <xref:amp>, for the caller to interact with.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.addEventListener
     name: 'addEventListener(string, Function)'
@@ -121,8 +121,8 @@ items:
           type:
             - string
           description: >
-            The event type string. Use [[amp.eventName]] for the list of event
-            types.
+            The event type string. Use <xref:amp.eventName> for the list of
+            event types.
 
             ex: `amp.eventName.playing`
         - id: handler
@@ -132,7 +132,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.addMidRoll
     name: addMidRoll(MidRoll)
@@ -166,7 +166,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.BufferData
-        description: '[[amp.BufferData]], undefined if not available'
+        description: '<xref:amp.BufferData>, undefined if not available'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.autoplay_1
     name: autoplay()
@@ -189,7 +189,7 @@ items:
     type: method
     langs:
       - typeScript
-    summary: 'Set/Get whether or not to autoplay on [[amp.Player.src]].'
+    summary: 'Set/Get whether or not to autoplay on <xref:amp.Player.src>.'
     syntax:
       content: 'function autoplay(value: boolean)'
       parameters:
@@ -201,8 +201,8 @@ items:
         type:
           - amp_docs_node_package.amp.Player
         description: >-
-          The [[amp.Player]] calling this function when setting, true/false when
-          getting.
+          The <xref:amp.Player> calling this function when setting, true/false
+          when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.buffered
     name: buffered()
@@ -296,8 +296,8 @@ items:
         type:
           - amp_docs_node_package.amp.Player
         description: >-
-          The [[amp.Player]] calling this function when setting, true/false when
-          getting.
+          The <xref:amp.Player> calling this function when setting, true/false
+          when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.currentAbsoluteTime
     name: currentAbsoluteTime()
@@ -346,7 +346,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.AudioStreamList
-        description: '[[amp.AudioStreamList]], undefined if not available'
+        description: '<xref:amp.AudioStreamList>, undefined if not available'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.currentClip
     name: currentClip()
@@ -510,7 +510,7 @@ items:
       Get the fully qualified URL of the current source value e.g.
       http://mysite.com/video.mp4.
 
-      Can be used in conjuction with [[amp.Player.currentType]] to assist in
+      Can be used in conjuction with <xref:amp.Player.currentType> to assist in
       rebuilding the current source object.
     syntax:
       content: function currentSrc()
@@ -574,8 +574,8 @@ items:
         type:
           - amp_docs_node_package.amp.Player
         description: >-
-          The [[amp.Player]] calling this function when setting, time in seconds
-          when getting.
+          The <xref:amp.Player> calling this function when setting, time in
+          seconds when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.currentType
     name: currentType()
@@ -611,7 +611,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.VideoStreamList
-        description: '[[amp.VideoStreamList]], undefined if not available'
+        description: '<xref:amp.VideoStreamList>, undefined if not available'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.disableTextTracks
     name: disableTextTracks()
@@ -631,7 +631,7 @@ items:
     langs:
       - typeScript
     summary: >
-      Destroys the [[amp.Player]] and does any necessary cleanup.
+      Destroys the <xref:amp.Player> and does any necessary cleanup.
 
       ##### Example:
           myPlayer.dispose();
@@ -663,7 +663,7 @@ items:
         type:
           - 'amp_docs_node_package.amp.Player.DownloadableMediaFile[]'
         description: >-
-          The [[amp.Player]] calling this function when setting, current
+          The <xref:amp.Player> calling this function when setting, current
           downlodable media value when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.downloadableMedia_1
@@ -728,16 +728,23 @@ items:
     type: method
     langs:
       - typeScript
-    summary: |
+    summary: >
       Increase the size of the video to full screen.
+
       ##### Example:
           myPlayer.enterFullscreen();
 
       In some browsers, full screen is not supported natively, so it enters
+
       "full window mode", where the video fills the browser window.
+
       In browsers and devices that support native full screen, sometimes the
-      browser's default controls will be shown, and not the [[amp]] custom skin.
+
+      browser's default controls will be shown, and not the <xref:amp> custom
+      skin.
+
       This includes most mobile devices (iOS, Android) and older versions of
+
       Safari.
     syntax:
       content: function enterFullscreen()
@@ -745,7 +752,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.error
     name: error()
@@ -778,7 +785,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.fromPresentationTime
     name: fromPresentationTime(number)
@@ -883,7 +890,7 @@ items:
         type:
           - Object
         description: >-
-          The [[amp.Player]] calling this function when setting, pixels when
+          The <xref:amp.Player> calling this function when setting, pixels when
           getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.height_1
@@ -991,7 +998,7 @@ items:
         type:
           - amp_docs_node_package.amp.Player
         description: >-
-          The [[amp.Player]] calling this function when setting, current mute
+          The <xref:amp.Player> calling this function when setting, current mute
           state when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.options_1
@@ -1047,7 +1054,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.paused
     name: paused()
@@ -1081,7 +1088,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.playbackRate
     name: playbackRate()
@@ -1100,7 +1107,7 @@ items:
         type:
           - number
         description: >-
-          The [[amp.Player]] calling this function when setting, current
+          The <xref:amp.Player> calling this function when setting, current
           playback rate when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.playbackRate_1
@@ -1207,8 +1214,8 @@ items:
         type:
           - amp_docs_node_package.amp.Player
         description: >-
-          The [[amp.Player]] calling this function when setting, posterURL when
-          getting.
+          The <xref:amp.Player> calling this function when setting, posterURL
+          when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.presentationLayout
     name: presentationLayout()
@@ -1282,7 +1289,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.removeEventListener
     name: 'removeEventListener(string, Function)'
@@ -1307,8 +1314,8 @@ items:
           type:
             - string
           description: >
-            The event type string. Use [[amp.eventName]] for the list of event
-            types.
+            The event type string. Use <xref:amp.eventName> for the list of
+            event types.
 
             ex: `amp.eventName.playing`
         - id: handler
@@ -1319,7 +1326,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.seeking
     name: seeking()
@@ -1437,7 +1444,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.src_1
     name: 'src(Source[], Track[])'
@@ -1520,7 +1527,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.Player
-        description: 'The [[amp.Player]] calling this function.'
+        description: 'The <xref:amp.Player> calling this function.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.textTracks
     name: textTracks()
@@ -1583,7 +1590,7 @@ items:
       return:
         type:
           - amp_docs_node_package.amp.BufferData
-        description: '[[amp.BufferData]], undefined if not available'
+        description: '<xref:amp.BufferData>, undefined if not available'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.videoHeight
     name: videoHeight()
@@ -1653,8 +1660,8 @@ items:
         type:
           - amp_docs_node_package.amp.Player
         description: >-
-          The [[amp.Player]] calling this function when setting, current volume
-          when getting.
+          The <xref:amp.Player> calling this function when setting, current
+          volume when getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.width
     name: width()
@@ -1674,7 +1681,7 @@ items:
         type:
           - Object
         description: >-
-          The [[amp.Player]] calling this function when setting, pixels when
+          The <xref:amp.Player> calling this function when setting, pixels when
           getting.
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.width_1

@@ -23,9 +23,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      Boolean specifying if the time shown in the control bar will be displayed
-      in 12-hour am/pm format or 24-hour format. Default is true.
+    summary: ''
     optional: true
     syntax:
       content: 'controlBar12HourFormat?: boolean'

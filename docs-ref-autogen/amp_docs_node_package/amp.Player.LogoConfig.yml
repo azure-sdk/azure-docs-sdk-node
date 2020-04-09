@@ -8,7 +8,7 @@ items:
     langs:
       - typeScript
     type: interface
-    summary: 'Interface for the Logo of [[amp]]'
+    summary: 'Interface for the Logo of <xref:amp>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.LogoConfig.enabled
     name: enabled

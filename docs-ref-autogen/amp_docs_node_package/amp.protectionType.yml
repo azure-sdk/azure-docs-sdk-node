@@ -11,7 +11,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Protection types for [[amp]]'
+    summary: 'Protection types for <xref:amp>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.protectionType.AES
     name: AES

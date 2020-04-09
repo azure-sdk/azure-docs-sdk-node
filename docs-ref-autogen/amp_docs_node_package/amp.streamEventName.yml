@@ -8,7 +8,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Stream Event types from [[amp.Player.currentVideoStreamList]]'
+    summary: 'Stream Event types from <xref:amp.Player.currentVideoStreamList>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.streamEventName.trackselected
     name: trackselected
@@ -17,7 +17,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Track has been selected in [[amp.Player.currentVideoStreamList]]'
+    summary: 'Track has been selected in <xref:amp.Player.currentVideoStreamList>'
     syntax:
       content: 'static trackselected: string'
       return:

@@ -16,8 +16,8 @@ items:
       - typeScript
     type: interface
     summary: >-
-      Buffer data, returned from [[amp.Player.videoBufferData]] and
-      [[amp.Player.audioBufferData]]
+      Buffer data, returned from <xref:amp.Player.videoBufferData> and
+      <xref:amp.Player.audioBufferData>
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.BufferData.addEventListener
     name: 'addEventListener(string, Function)'
@@ -125,7 +125,7 @@ items:
     type: property
     summary: >-
       Bandwidth used to make heuristic decision, available with
-      [[amp.Player.videoBufferData]] only, in bps
+      <xref:amp.Player.videoBufferData> only, in bps
     optional: true
     syntax:
       content: 'perceivedBandwidth?: number'

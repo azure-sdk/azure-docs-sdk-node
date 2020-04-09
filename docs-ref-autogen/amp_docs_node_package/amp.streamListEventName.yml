@@ -10,7 +10,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Stream Event types from [[amp.Player.currentAudioStreamList]]'
+    summary: 'Stream Event types from <xref:amp.Player.currentAudioStreamList>'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.streamListEventName.streamindexinvalid
     name: streamindexinvalid
@@ -21,7 +21,7 @@ items:
     type: property
     summary: >-
       Index chosen did not exist in the list of audio streams in
-      [[amp.Player.currentAudioStreamList]]
+      <xref:amp.Player.currentAudioStreamList>
     syntax:
       content: 'static streamindexinvalid: string'
       return:
@@ -36,7 +36,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Stream has been selected in [[amp.Player.currentAudioStreamList]]'
+    summary: 'Stream has been selected in <xref:amp.Player.currentAudioStreamList>'
     syntax:
       content: 'static streamselected: string'
       return:
@@ -53,7 +53,7 @@ items:
     type: property
     summary: |-
       Currently, stream selection is only supported when single stream is
-      enabled in [[amp.Player.currentAudioStreamList]]
+      enabled in <xref:amp.Player.currentAudioStreamList>
     syntax:
       content: 'static streamselectnotsupported: string'
       return:

@@ -59,7 +59,7 @@ items:
     langs:
       - typeScript
     type: class
-    summary: 'Error codes for [[amp.MediaError.code]] for bits 27-0.'
+    summary: 'Error codes for <xref:amp.MediaError.code> for bits 27-0.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.errorCode.abortedErrEnd
     name: abortedErrEnd

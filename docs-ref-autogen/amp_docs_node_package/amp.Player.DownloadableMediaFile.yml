@@ -72,7 +72,7 @@ items:
     type: property
     summary: |-
       Downloadable media file type.
-      use [[amp.downloadableMediaType]] for the list of media file types.
+      use <xref:amp.downloadableMediaType> for the list of media file types.
       ex: `amp.downloadableMediaType.transcript`
     syntax:
       content: 'type: string'
