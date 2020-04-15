@@ -105,7 +105,7 @@ items:
       - amp_docs_node_package.amp.Player.width
       - amp_docs_node_package.amp.Player.width_1
     type: module
-    summary: 'The Player instance for <xref:amp>, for the caller to interact with.'
+    summary: 'The Player instance for <xref:amp_docs_node_package.amp>, for the caller to interact with.'
     package: amp_docs_node_package
   - uid: amp_docs_node_package.amp.Player.addEventListener
     name: 'addEventListener(string, Function)'
