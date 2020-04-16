@@ -1,168 +1,168 @@
-- uid: amp_docs_node_package
-  name: amp_docs_node_package
+- uid: azuremediaplayer
+  name: azuremediaplayer
   items:
-    - uid: amp_docs_node_package.amp
+    - uid: azuremediaplayer.amp
       name: amp
       items:
-        - uid: amp_docs_node_package.amp.AdElement
+        - uid: azuremediaplayer.amp.AdElement
           name: AdElement
           items: []
-        - uid: amp_docs_node_package.amp.AdOptions
+        - uid: azuremediaplayer.amp.AdOptions
           name: AdOptions
           items: []
-        - uid: amp_docs_node_package.amp.Asset
+        - uid: azuremediaplayer.amp.Asset
           name: Asset
           items: []
-        - uid: amp_docs_node_package.amp.AudioStream
+        - uid: azuremediaplayer.amp.AudioStream
           name: AudioStream
           items: []
-        - uid: amp_docs_node_package.amp.AudioStreamList
+        - uid: azuremediaplayer.amp.AudioStreamList
           name: AudioStreamList
           items: []
-        - uid: amp_docs_node_package.amp.BufferData
+        - uid: azuremediaplayer.amp.BufferData
           name: BufferData
           items: []
-        - uid: amp_docs_node_package.amp.bufferDataEventName
+        - uid: azuremediaplayer.amp.bufferDataEventName
           name: bufferDataEventName
           items: []
-        - uid: amp_docs_node_package.amp.Clip
+        - uid: azuremediaplayer.amp.Clip
           name: Clip
           items: []
-        - uid: amp_docs_node_package.amp.CorsConfig
+        - uid: azuremediaplayer.amp.CorsConfig
           name: CorsConfig
           items: []
-        - uid: amp_docs_node_package.amp.downloadableMediaType
+        - uid: azuremediaplayer.amp.downloadableMediaType
           name: downloadableMediaType
           items: []
-        - uid: amp_docs_node_package.amp.errorCode
+        - uid: azuremediaplayer.amp.errorCode
           name: errorCode
           items: []
-        - uid: amp_docs_node_package.amp.eventName
+        - uid: azuremediaplayer.amp.eventName
           name: eventName
           items: []
-        - uid: amp_docs_node_package.amp.MainProgram
+        - uid: azuremediaplayer.amp.MainProgram
           name: MainProgram
           items: []
-        - uid: amp_docs_node_package.amp.MediaDownload
+        - uid: azuremediaplayer.amp.MediaDownload
           name: MediaDownload
           items: []
-        - uid: amp_docs_node_package.amp.MediaDownloadCompleted
+        - uid: azuremediaplayer.amp.MediaDownloadCompleted
           name: MediaDownloadCompleted
           items: []
-        - uid: amp_docs_node_package.amp.MediaDownloadDecrypted
+        - uid: azuremediaplayer.amp.MediaDownloadDecrypted
           name: MediaDownloadDecrypted
           items: []
-        - uid: amp_docs_node_package.amp.MediaDownloadFailed
+        - uid: azuremediaplayer.amp.MediaDownloadFailed
           name: MediaDownloadFailed
           items: []
-        - uid: amp_docs_node_package.amp.MediaError
+        - uid: azuremediaplayer.amp.MediaError
           name: MediaError
           items: []
-        - uid: amp_docs_node_package.amp.MidRoll
+        - uid: azuremediaplayer.amp.MidRoll
           name: MidRoll
           items: []
-        - uid: amp_docs_node_package.amp.options
+        - uid: azuremediaplayer.amp.options
           name: options
           items:
-            - uid: amp_docs_node_package.amp.options.azureHtml5JS
+            - uid: azuremediaplayer.amp.options.azureHtml5JS
               name: azureHtml5JS
               items: []
-            - uid: amp_docs_node_package.amp.options.flashSS
+            - uid: azuremediaplayer.amp.options.flashSS
               name: flashSS
               items: []
-            - uid: amp_docs_node_package.amp.options.silverlightSS
+            - uid: azuremediaplayer.amp.options.silverlightSS
               name: silverlightSS
               items: []
-        - uid: amp_docs_node_package.amp.Player
+        - uid: azuremediaplayer.amp.Player
           name: Player
           items:
-            - uid: amp_docs_node_package.amp.Player.AudioTracksMenu
+            - uid: azuremediaplayer.amp.Player.AudioTracksMenu
               name: AudioTracksMenu
               items: []
-            - uid: amp_docs_node_package.amp.Player.Cea708CaptionsSettings
+            - uid: azuremediaplayer.amp.Player.Cea708CaptionsSettings
               name: Cea708CaptionsSettings
               items: []
-            - uid: amp_docs_node_package.amp.Player.DownloadableMediaFile
+            - uid: azuremediaplayer.amp.Player.DownloadableMediaFile
               name: DownloadableMediaFile
               items: []
-            - uid: amp_docs_node_package.amp.Player.HeuristicProfile
+            - uid: azuremediaplayer.amp.Player.HeuristicProfile
               name: HeuristicProfile
               items: []
-            - uid: amp_docs_node_package.amp.Player.HotKeys
+            - uid: azuremediaplayer.amp.Player.HotKeys
               name: HotKeys
               items: []
-            - uid: amp_docs_node_package.amp.Player.Imsc1CaptionsSettings
+            - uid: azuremediaplayer.amp.Player.Imsc1CaptionsSettings
               name: Imsc1CaptionsSettings
               items: []
-            - uid: amp_docs_node_package.amp.Player.KeyValuePair
+            - uid: azuremediaplayer.amp.Player.KeyValuePair
               name: KeyValuePair
               items: []
-            - uid: amp_docs_node_package.amp.Player.LogoConfig
+            - uid: azuremediaplayer.amp.Player.LogoConfig
               name: LogoConfig
               items: []
-            - uid: amp_docs_node_package.amp.Player.Options
+            - uid: azuremediaplayer.amp.Player.Options
               name: Options
               items: []
-            - uid: amp_docs_node_package.amp.Player.PlaybackSpeedOptions
+            - uid: azuremediaplayer.amp.Player.PlaybackSpeedOptions
               name: PlaybackSpeedOptions
               items: []
-            - uid: amp_docs_node_package.amp.Player.ProtectionInfo
+            - uid: azuremediaplayer.amp.Player.ProtectionInfo
               name: ProtectionInfo
               items: []
-            - uid: amp_docs_node_package.amp.Player.SDN
+            - uid: azuremediaplayer.amp.Player.SDN
               name: SDN
               items: []
-            - uid: amp_docs_node_package.amp.Player.SkinConfig
+            - uid: azuremediaplayer.amp.Player.SkinConfig
               name: SkinConfig
               items: []
-            - uid: amp_docs_node_package.amp.Player.Source
+            - uid: azuremediaplayer.amp.Player.Source
               name: Source
               items: []
-            - uid: amp_docs_node_package.amp.Player.TraceConfig
+            - uid: azuremediaplayer.amp.Player.TraceConfig
               name: TraceConfig
               items: []
-            - uid: amp_docs_node_package.amp.Player.TraceTarget
+            - uid: azuremediaplayer.amp.Player.TraceTarget
               name: TraceTarget
               items: []
-            - uid: amp_docs_node_package.amp.Player.Track
+            - uid: azuremediaplayer.amp.Player.Track
               name: Track
               items: []
-            - uid: amp_docs_node_package.amp.Player.WallClockTimeDisplaySettings
+            - uid: azuremediaplayer.amp.Player.WallClockTimeDisplaySettings
               name: WallClockTimeDisplaySettings
               items: []
-        - uid: amp_docs_node_package.amp.PlayList
+        - uid: azuremediaplayer.amp.PlayList
           name: PlayList
           items: []
-        - uid: amp_docs_node_package.amp.PresentationLayout
+        - uid: azuremediaplayer.amp.PresentationLayout
           name: PresentationLayout
           items: []
-        - uid: amp_docs_node_package.amp.protectionType
+        - uid: azuremediaplayer.amp.protectionType
           name: protectionType
           items: []
-        - uid: amp_docs_node_package.amp.Splice
+        - uid: azuremediaplayer.amp.Splice
           name: Splice
           items: []
-        - uid: amp_docs_node_package.amp.streamEventName
+        - uid: azuremediaplayer.amp.streamEventName
           name: streamEventName
           items: []
-        - uid: amp_docs_node_package.amp.streamListEventName
+        - uid: azuremediaplayer.amp.streamListEventName
           name: streamListEventName
           items: []
-        - uid: amp_docs_node_package.amp.TimeRange
+        - uid: azuremediaplayer.amp.TimeRange
           name: TimeRange
           items: []
-        - uid: amp_docs_node_package.amp.VideoStream
+        - uid: azuremediaplayer.amp.VideoStream
           name: VideoStream
           items: []
-        - uid: amp_docs_node_package.amp.VideoStreamList
+        - uid: azuremediaplayer.amp.VideoStreamList
           name: VideoStreamList
           items: []
-        - uid: amp_docs_node_package.amp.VideoTrack
+        - uid: azuremediaplayer.amp.VideoTrack
           name: VideoTrack
           items: []
-        - uid: amp_docs_node_package.amp.XMLHttpRequestFactory
+        - uid: azuremediaplayer.amp.XMLHttpRequestFactory
           name: XMLHttpRequestFactory
           items: []
-        - uid: amp_docs_node_package.amp.XMLHttpRequestWrapper
+        - uid: azuremediaplayer.amp.XMLHttpRequestWrapper
           name: XMLHttpRequestWrapper
           items: []
