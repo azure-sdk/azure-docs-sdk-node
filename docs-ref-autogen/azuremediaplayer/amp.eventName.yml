@@ -77,7 +77,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.click> User clicked on video frame.'
+    summary: User clicked on video frame.
     syntax:
       content: 'static click: string'
       return:
@@ -92,9 +92,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      <xref:azuremediaplayer.amp.Player.complete> Playback reached end. Synonym
-      of 'ended'
+    summary: Playback reached end. Synonym of 'ended'
     syntax:
       content: 'static complete: string'
       return:
@@ -171,12 +169,9 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >+
-      emsg boxes are available by examining the event
-      <xref:azuremediaplayer.amp.Player.emsgAvailable>.
-
+    summary: |+
+      Emsg boxes are available.
       Available only in DASH
-
       ##### Example:
           myPlayer.addEventListener(amp.eventName.emsgAvailable, function (event, info) {
               // emsg boxes are in info.data
@@ -228,9 +223,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      <xref:azuremediaplayer.amp.Player.errorInPlayingAd> player encountered an
-      error when playing an advertisement clip.
+    summary: Player encountered an error when playing an advertisement clip.
     syntax:
       content: 'static errorInPlayingAd: string'
       return:
@@ -245,9 +238,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      <xref:azuremediaplayer.amp.Player.exitfullscreen> Player has exited
-      fullscreen mode.
+    summary: Player has exited fullscreen mode.
     syntax:
       content: 'static exitfullscreen: string'
       return:
@@ -262,9 +253,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      <xref:azuremediaplayer.amp.Player.firstquartile> Playback reached first
-      quartile.
+    summary: Playback reached first quartile.
     syntax:
       content: 'static firstquartile: string'
       return:
@@ -279,9 +268,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      <xref:azuremediaplayer.amp.Player.fullscreen> Player has entered
-      fullscreen mode.
+    summary: Player has entered fullscreen mode.
     syntax:
       content: 'static fullscreen: string'
       return:
@@ -312,8 +299,8 @@ items:
       - typeScript
     type: property
     summary: >-
-      <xref:azuremediaplayer.amp.Player.livestartupretry> player encountered an
-      retry while trying to play a live content, and being retried.
+      Player encountered a retry while trying to play a live content, and being
+      retried.
     syntax:
       content: 'static livestartupretry: string'
       return:
@@ -373,7 +360,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.midpoint> Playback reached middle.'
+    summary: Playback reached middle.
     syntax:
       content: 'static midpoint: string'
       return:
@@ -388,7 +375,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.mute> Playback was muted.'
+    summary: Playback was muted.
     syntax:
       content: 'static mute: string'
       return:
@@ -484,7 +471,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.resume> Player started after a pause.'
+    summary: Player started after a pause.
     syntax:
       content: 'static resume: string'
       return:
@@ -499,7 +486,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.rewind> Playback was rewound.'
+    summary: Playback was rewound.
     syntax:
       content: 'static rewind: string'
       return:
@@ -546,7 +533,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.skip> Skip UI control was used.'
+    summary: Skip UI control was used.
     syntax:
       content: 'static skip: string'
       return:
@@ -595,7 +582,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.start> Playback started.'
+    summary: Playback started.
     syntax:
       content: 'static start: string'
       return:
@@ -610,9 +597,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: >-
-      <xref:azuremediaplayer.amp.Player.thirdquartile> Playback reached third
-      quarter.
+    summary: Playback reached third quarter.
     syntax:
       content: 'static thirdquartile: string'
       return:
@@ -642,7 +627,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: '<xref:azuremediaplayer.amp.Player.unmute> Player was unmuted.'
+    summary: Player was unmuted.
     syntax:
       content: 'static unmute: string'
       return:

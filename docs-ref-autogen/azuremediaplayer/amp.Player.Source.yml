@@ -14,7 +14,7 @@ items:
     type: interface
     summary: >-
       Source object to hold the source information in
-      <xref:azuremediaplayer.Options> and
+      <xref:azuremediaplayer.amp.player.options> and
       <xref:azuremediaplayer.amp.Player.src>.
     package: azuremediaplayer
   - uid: azuremediaplayer.amp.Player.Source.disableUrlRewriter
@@ -42,7 +42,7 @@ items:
     langs:
       - typeScript
     type: property
-    summary: 'Array of <xref:azuremediaplayer.ProtectionInfo> for the source'
+    summary: 'Array of <xref:azuremediaplayer.amp.player.ProtectionInfo> for the source'
     optional: true
     syntax:
       content: 'protectionInfo?: ProtectionInfo[]'

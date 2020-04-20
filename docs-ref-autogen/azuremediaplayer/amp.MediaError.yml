@@ -19,7 +19,7 @@ items:
       - typeScript
     type: property
     summary: >-
-      Error codes (see <xref:azuremediaplayer.amp.ErrorCode>)
+      Error codes (see <xref:azuremediaplayer.amp.errorCode>)
 
       Bits [31-28] - Tech Id
 
