@@ -14,7 +14,7 @@ items:
     type: interface
     summary: >-
       Source object to hold the source information in
-      <xref:azuremediaplayer.amp.Player.options> and
+      <xref:azuremediaplayer.amp.player.options> and
       <xref:azuremediaplayer.amp.Player.src>.
     package: azuremediaplayer
   - uid: azuremediaplayer.amp.Player.Source.disableUrlRewriter
